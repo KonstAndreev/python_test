@@ -12,6 +12,10 @@ utils = torch.hub.load('NVIDIA/DeepLearningExamples:torchhub', 'nvidia_convnets_
 
 def load_model():
     model = torch.hub.load('NVIDIA/DeepLearningExamples:torchhub', 'nvidia_efficientnet_b0', pretrained=True)
+    model_1 = smp.Unet('resnet34', in_channels=1,
+                       encoder_weights='imagenet',
+                       classes=1, activation=None,
+                       encoder_depth=5, decoder_channels=[256, 128, 64, 32, 16])
     model.eval()
     return model
 
