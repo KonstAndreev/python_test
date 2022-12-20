@@ -2,4 +2,4 @@ torch
 Pillow
 streamlit
 torchvision
-segmentation_models_pytorch
+segmentation-models-pytorch==0.3.1
