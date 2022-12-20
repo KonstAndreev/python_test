@@ -4,6 +4,7 @@ import numpy as np
 import streamlit as st
 from PIL import Image
 import torchvision.transforms as transforms
+import segmentation_models_pytorch as smp
 
 device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 print(f'Using {device} for inference')
