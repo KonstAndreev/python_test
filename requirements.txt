@@ -3,3 +3,4 @@ Pillow
 streamlit
 torchvision
 segmentation-models-pytorch==0.3.1
+gdown
