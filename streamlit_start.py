@@ -54,7 +54,7 @@ output = 'model_resnet.pth'
 gdown.download(url, output, quiet=False)
         
 model = load_model()
-model_1 = torch.load('model_resnet.pth')
+model_1 = torch.load('model_resnet.pth', map_location=torch.device('cpu'))
 
 st.title('Новая улучшенная классификация изображений в облаке streamlit')
 img = load_image()
