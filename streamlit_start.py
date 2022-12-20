@@ -48,6 +48,10 @@ def print_predicitions(output):
     for cl in results:
         st.write(cl[1], cl[2])
 
+url = 'https://drive.google.com/uc?id=1jYRFlxiGq6XTRWd0TR0NVCdfGKh7Sw1y'
+output = 'model_resnet.pth'
+gdown.download(url, output, quiet=False)
+        
 model = load_model()
 
 st.title('Новая улучшенная классификация изображений в облаке streamlit')
