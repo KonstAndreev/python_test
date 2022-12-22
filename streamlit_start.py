@@ -1,3 +1,4 @@
+# тестовая версия на основе примера
 import io
 import torch
 import numpy as np
