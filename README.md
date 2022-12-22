@@ -5,4 +5,5 @@
 
 При распознавании изображений используется библиотека https://github.com/qubvel/segmentation_models.pytorch.
 
-Ссылка на приложение 
+Ссылка на приложение:
+https://konstandreev-python-test-ct-lungs-test-hpxvpt.streamlit.app/
