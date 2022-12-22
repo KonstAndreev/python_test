@@ -3,7 +3,8 @@
 Тестовая версия.
 Для использования приложения загрузите файл, нажав upload images или перетащите файл в область. После этого нажмите кнопку "распознать изображение".
 
-При распознавании изображений используется библиотека https://github.com/qubvel/segmentation_models.pytorch.
+При распознавании изображений используется библиотека:  
+https://github.com/qubvel/segmentation_models.pytorch.
 
-Ссылка на приложение:
+Ссылка на приложение:  
 https://konstandreev-python-test-ct-lungs-test-hpxvpt.streamlit.app/
