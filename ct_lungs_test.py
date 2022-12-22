@@ -62,5 +62,5 @@ if result:
         Y_pred = model(x).detach().to('cpu')
     st.write('Результаты распознавания')
     a = np.array(((Y_pred.squeeze() > 0.5).int())*255)
-    st.write(a[135][100])
+    #st.write(a[135][100])
     st.image(a, output_format="PNG", clamp=False)
